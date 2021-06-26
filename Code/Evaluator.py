@@ -80,7 +80,7 @@ class Evaluator(object):
                 arrR[1:1 + len(corruptedHeads)] = t.r
                 arrT[1:1 + len(corruptedHeads)] = t.t
 
-                corruptedHeadsEnd = len(arrH)
+                corruptedHeadsEnd = 1 + len(corruptedHeads)
 
                 arrH[1 + len(corruptedHeads):] = t.h
                 arrR[1 + len(corruptedHeads):] = t.r
